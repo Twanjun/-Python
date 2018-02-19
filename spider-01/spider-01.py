@@ -29,8 +29,8 @@ if __name__ == '__main__':
 
     for page in range(1, 5):
         print(page)    # 作用是跟踪程序爬取到第几页
-        url = 'https://nj.focus.cn/loupan/p{}/'.format(page)
+        url = 'https://house.focus.cn/loupan/p{}/'.format(page)
         data(url, n)
         n = page * 20
 
-    wb.save('F:\ nanjing.xls')
+    wb.save('F:\ beijing.xls')
